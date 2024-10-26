@@ -1,0 +1,18 @@
+[package]
+name = "coreutils-dumb"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "echo-dumb"
+path = "src/echo-dumb.rs"
+
+[[bin]]
+name = "grep-dumb"
+path = "src/grep-dumb.rs"
+
+[[bin]]
+name = "rm-dumb"
+path = "src/rm-dumb.rs"
+
+[dependencies]
