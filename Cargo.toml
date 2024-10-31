@@ -15,4 +15,8 @@ path = "src/grep-dumb.rs"
 name = "rm-dumb"
 path = "src/rm-dumb.rs"
 
+[[bin]]
+name = "mkdir-dumb"
+path = "src/mkdir-dumb.rs"
+
 [dependencies]
